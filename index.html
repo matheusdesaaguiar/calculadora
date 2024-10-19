@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input placeholder="insira um numero: "  type="number" id="num1">
+    <input placeholder="insira outro numero: "  type="number" id="num2">
+    <br>
+    <label for="operacao-select">Escolha uma operação: </label>
+    <select name="operacao" id="operacao-select">
+        <option value="">escolha uma operação </option>
+        <option value="soma">Somar</option>
+        <option value="subtracao">subtração</option>
+        <option value="divisao">divisão</option>
+        <option value="multiplicacao">multiplicação</option>
+      </select>
+      <br>
+    <button id="btn-operar">Operar</button>
+    <p>Resultado: <span id="resultado"></span></p>
+</body>
+<script src="./src/js/script.js"></script>
+</html>
